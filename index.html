@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <img class="navbar_logo" src="images/logo_steam.png" />
+      <div class="navbar_dropdown">
+        <div class="navbar_dropbtn">STORE</div>
+      </div>
+      <div class="navbar_dropdown">
+        <div class="navbar_dropbtn">COMMUNITY</div>
+      </div>
+      <div class="navbar_dropdown">
+        <div class="navbar_dropbtn">ABOUT</div>
+      </div>
+      <div class="navbar_dropdown">
+        <div class="navbar_dropbtn">SUPPORT</div>
+      </div>
+    </header>
+    <section class="menu">
+      <a class="dropdowns" href="#">Your Store</a>
+      <a class="dropdowns" href="#">Games</a>
+      <a class="dropdowns" href="#">Software</a>
+      <a class="dropdowns" href="#">Hardware</a>
+      <a class="static" href="#">News</a>
+      <a class="static" href="#">Steam Labs</a>
+      <form class="search-bar">
+        <input type="text" placeholder="search the store" id="search-game" />
+        <input type="submit" />
+      </form>
+    </section>
+    <p class="error-message"></p>
+    <div class="games">
+      <div class="left">
+        <h1 class="browse">BROWSE CATEGORIES</h1>
+        <ul class="genres-option" id="genres-list"></ul>
+      </div>
+      <div id="games-list">
+      </div>
+    </div>
+    <footer>
+      <div class="insert-margin"></div>
+      <div class="insert-border"></div>
+      <div class="disclaimer">
+        This page's design is based on
+        <a target="_blank" href="https://store.steampowered.com/"
+          >Steam Store page</a
+        >. All of the images used in were taken from the same page.<br />
+        This page was created for educational purpose only.
+      </div>
+      <div class="insert-border"></div>
+      <div class="contact">conca | goldfishinblue@icloud.com</div>
+      <div class="insert-margin"></div>
+    </footer>
+    <script src="steam.js"></script>
+  </body>
+</html>
